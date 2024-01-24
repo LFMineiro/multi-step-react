@@ -1,12 +1,15 @@
 import './App.css'
+import { StepsArea } from './components/StepsArea'
 
-function App() { 
-   return ( 
-   <div className="containerApp">
-      <p>Steps</p>
-      <p>Form</p>
-    </div> 
-    )
+function App() {
+  return (
+    <body>
+      <div className="containerApp">
+        <StepsArea />
+        <p>Form</p>
+      </div>
+    </body>
+  )
 }
 
 export default App
