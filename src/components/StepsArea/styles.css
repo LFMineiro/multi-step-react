@@ -1,0 +1,7 @@
+.stepContainer {
+    background-image: url('../../images/bg-sidebar-desktop.svg');    
+    width: 35%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}

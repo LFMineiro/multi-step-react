@@ -1,4 +1,6 @@
-export const FormArea = () => {
+import './styles.css'
+
+export const PersonalInfo = () => {
   return (
     <div className="formContainer">
       <div className="formTitle">
@@ -18,10 +20,7 @@ export const FormArea = () => {
           <label htmlFor="number">Phone Number:</label>
           <input type="number" name="number" id="number" />
         </div>
-        <button type="submit">Next Step</button>
       </div>
-
-      <form></form>
     </div>
   )
 }
