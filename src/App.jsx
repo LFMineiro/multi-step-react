@@ -1,4 +1,6 @@
 import './App.css'
+import { FormArea } from './components/FormArea'
+import { PersonalInfo } from './components/PersonalInfo'
 import { StepsArea } from './components/StepsArea'
 
 function App() {
@@ -6,7 +8,7 @@ function App() {
     <body>
       <div className="containerApp">
         <StepsArea />
-        <p>Form</p>
+        <PersonalInfo />
       </div>
     </body>
   )

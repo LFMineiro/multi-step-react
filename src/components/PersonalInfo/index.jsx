@@ -1,4 +1,6 @@
-export const FormArea = () => {
+import './styles.css'
+
+export const PersonalInfo = () => {
   return (
     <div className="formContainer">
       <div className="formTitle">
@@ -20,8 +22,6 @@ export const FormArea = () => {
         </div>
         <button type="submit">Next Step</button>
       </div>
-
-      <form></form>
     </div>
   )
 }
